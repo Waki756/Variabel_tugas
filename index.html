@@ -1,21 +1,29 @@
 <!DOCTYPE html>
-  <html lang="en">
-<head>
-  <title>Variabel JavaScript</title>
-</head>
-<body>
-<p>
-<script language="JavaScript">
+<html lang="en">
+  <head>
+    <title>Variabel JavaScript</title>
+  </head>
+  <body>
+    <P>
+      <script language="JavaScript">
+        let nama = "NAMA ANDA";
+        document.writeln (nama);
+        nama = 123;
+        
+        document.writeln(nama);
+        nama = true;
+        
+        document.writeln(nama);
 
-let nama = "Wanda hakiki";
-document.writeln(Wanda Hakiki);
-
-nama = 2313025013;
-document.writeln(Wanda Hakiki);
-
-nama = true;
-document.writeln(Wanda Hakiki);
-</script>
-</p>
-</body>
+        alert("Terdapat 3 jenis barang yang tersedia!\n[1]barang satu\n[2]barang dua\n[3]barang tiga");
+        let indeksBarang = prompt("Membutuhkan jenis barang nomor berapa?");
+        if (indeksBarang < 1 || indeksBarang > 3)
+        {
+          alert("Barang tidak tersedia");
+        } else {
+          alert("Barang tersedia, mohon ditunggu sebentar..");
+        }
+      </script>
+    </P>
+  </body>
 </html>
